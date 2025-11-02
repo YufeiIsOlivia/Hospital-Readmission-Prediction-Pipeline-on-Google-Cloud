@@ -179,12 +179,7 @@ AutoML created an ensemble model with 25 components:
 4. **Prediction**
    - Generate readmission predictions using trained model
 
-## 📈 Model Performance
-
-### Key Improvements
-
-- **SMOTE Impact:** Increased F1 score by ~5%
-- **Feature Selection:** Experimentation showed keeping Weight variable (despite correlation with Adjusted Weight) improved performance
+## 📈 Pipeline Performance 
 
 ### Training Pipeline
 
@@ -193,6 +188,8 @@ AutoML created an ensemble model with 25 components:
 ### Inference Pipeline
 
 - F1 Score: 0.7658
+
+> **Note:** AutoML was not used to build the main model pipeline. However, AutoML was incorporated to ensure the pipeline’s completeness and demonstrate end-to-end automation.
 
 ## 💡 Key Insights & Recommendations
 
