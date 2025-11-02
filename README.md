@@ -155,15 +155,13 @@ AutoML created an ensemble model with 25 components:
    - Apply log transformations
    - Scale features using StandardScaler
 
-4. **Clustering** (Optional, for training & validation)
-
-5. **SMOTE Oversampling**
+4. **SMOTE Oversampling**
    - Apply only to training set to balance classes
 
-6. **Model Training**
+5. **Model Training**
    - Train XGBoost with optimized hyperparameters
 
-7. **Model Assessment**
+6. **Model Assessment**
    - Evaluate on validation set
    - Generate performance metrics
 
@@ -178,9 +176,7 @@ AutoML created an ensemble model with 25 components:
 3. **Feature Engineering**
    - Apply same transformations as training
 
-4. **Clustering** (if applicable)
-
-5. **Prediction**
+4. **Prediction**
    - Generate readmission predictions using trained model
 
 ## 📈 Model Performance
@@ -190,15 +186,13 @@ AutoML created an ensemble model with 25 components:
 - **SMOTE Impact:** Increased F1 score by ~5%
 - **Feature Selection:** Experimentation showed keeping Weight variable (despite correlation with Adjusted Weight) improved performance
 
-### Validation Set Performance
+### Training Pipeline
+
+- F1 Score: 0.7725
+
+### Inference Pipeline
 
 - F1 Score: 0.7658
-- ROC AUC: 0.72
-
-### Test Set Performance
-
-- F1 Score: 0.7658
-- ROC AUC: 0.72
 
 ## 💡 Key Insights & Recommendations
 
