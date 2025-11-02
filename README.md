@@ -189,7 +189,7 @@ AutoML created an ensemble model with 25 components:
 
 - F1 Score: 0.7658
 
-> **Note:** AutoML was not used to build the main model pipeline. However, AutoML was incorporated to ensure the pipeline’s completeness and demonstrate end-to-end automation.
+*Note: For demonstration purposes, the pipeline uses the manually tuned XGBoost model to showcase the complete pipeline building process.*
 
 ## 💡 Key Insights & Recommendations
 
